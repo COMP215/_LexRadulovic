@@ -37,13 +37,13 @@ int main()
 		{
 			S.shiitake_amount_+=1;
 		}
-		else if (S.oyster_amount_<max_oyster)
-		{
-			S.oyster_amount_+=1;
-		}
 		else if (S.shaggy_amount_<max_shaggy)
 		{
 			S.shaggy_amount_+=1;
+		}
+		else if (S.oyster_amount_<max_oyster)
+		{
+			S.oyster_amount_+=1;
 		}
 		else
 		{
